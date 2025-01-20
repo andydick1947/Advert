@@ -155,11 +155,23 @@ function myres1(){
 }
 function myres(){
   
-   const rees='<p class="mytxt">The scoring for each session is accomplished electronically using the “BridgePal” system.<br><br>  Scores are entered at each table via Android Tablets with a 7.5 inch screen (easy on the eye). Provisional scores are available immediately on completion of the session and these are ratified the following morning when they are placed on the club website.<br><br> In addition to Rankings and Scorecard for each pair the hands played are combined with the Travellers to enble players to analyse their performance.  An example of the of these is illustrated below. </p>';
+   const rees='<p class="mytxt">The scoring for each session is accomplished electronically using the “BridgePal” system.<br><br>  Scores are entered at each table via Android Tablets with a 7.5 inch screen#. The large display with the high contrast screen make data entry very easy. Examples of these screens are illustrated below.</p>';
    const div=document.createElement("div");
    const mydiv=document.getElementById("mainsect");
    mydiv.appendChild(div);
    div.innerHTML=rees;
+
+   const res5='<img id="img3" src="images/Picture2.png"></img><br>';
+   const div5=document.createElement("div");
+   const mydiv5=document.getElementById("mainsect");
+   mydiv5.appendChild(div5);
+   div5.innerHTML=res5;
+
+   const rees1='<p class="mytxt">Provisional scores are available immediately on completion of the session and these are ratified the following morning when they are placed on the club website. In addition to Rankings and Scorecard for each pair the hands played are combined with the Travellers to enble players to analyse their performance.  An example of the of these is illustrated below. <br></p>';
+   const div4=document.createElement("div");
+   const mydiv4=document.getElementById("mainsect");
+   mydiv4.appendChild(div4);
+   div4.innerHTML=rees1;
 
 const res2='<img id="img3" src="images/Ranks.png"></img><br>';
 const div1=document.createElement("div");
