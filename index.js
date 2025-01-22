@@ -102,7 +102,7 @@ div1.innerHTML=cte1;
 }
 
 function mycttee(){
-      const cte='<table id="tbl"><tr><td>Chairman/Director:</td><td>Allan Evans</td></tr><tr><td>Treasurer:</td><td>Andrew Leonard</td><tr><td>Seceratary/Partnership Coordinator:</td><td>Meryl Phillips</td></tr><tr><td>Scorer:</td><td>Andy Dick</td></tr></table><br>';
+      const cte='<table id="tbl"><tr><td>Chairman/Director:</td><td>Allan Evans</td></tr><tr><td>Treasurer:</td><td>TBN</td><tr><td>Seceratary/Partnership Coordinator:</td><td>Meryl Phillips</td></tr><tr><td>Scorer:</td><td>Andy Dick</td></tr></table><br>';
       const div=document.createElement("div");
       const mydiv=document.getElementById("mainsect");
       mydiv.appendChild(div);
