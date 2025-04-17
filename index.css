@@ -144,7 +144,7 @@ color: blue;
 
       }
 }
-@media only screen and (min-width: 281px) and (max-width: 1000px){
+@media only screen and (min-width: 230px) and (max-width: 1000px){
   .header {
     display: none;
   }
@@ -321,7 +321,7 @@ nav {
       font-size: 16px;
   }
 }
-@media only screen and (max-width: 280px){
+@media only screen and (max-width: 230px){
   body{
     display: none;
   }
